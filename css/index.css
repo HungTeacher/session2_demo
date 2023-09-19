@@ -1,0 +1,128 @@
+/** {
+    margin: 0;
+}*/
+/*bộ chọn phần tử element selector*/
+/*table, th, td {
+    border: 1px solid black;
+}*/
+* {
+    font-family: "Arial Hebrew", sans-serif;
+}
+
+h1 {
+    border: 1px dashed green;
+    padding: 5px;
+    color: red;
+}
+/*bộ chọn id selector với id là div1*/
+#div1 {
+    padding: 7rem;
+}
+/*bộ chọn class selector với class name là link*/
+.link {
+    list-style: none;
+
+    /*
+    list-style-image: url("https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flat-white-3402c4f.jpg?quality=90&resize=500,454");
+    */
+}
+.link li:first-child::before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.link li:nth-child(2)::before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("https://img.freepik.com/free-vector/cup-tea-vector-realistic-isolated-white-illlustration-plate_1268-18066.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.link li:nth-child(3)::before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/Coca_Cola_Marketing_Strategy_2022.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.course {
+    background: #ff9999;
+    padding: 20px;
+}
+ol > li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+#layout header ul li a {
+    text-decoration: none;
+    color: chocolate;
+    text-transform: capitalize;
+}
+#layout header ul li {
+    list-style: none;
+}
+/*
+#layout header ul li:first-child a:hover {
+    color: green;
+}
+*/
+#layout header ul li:first-child p:first-letter{
+    color: green;
+}
+/*#layout header ul li a{
+    color: yellow;
+}*/
+#layout header ul li a[target=_blank] {
+    font-size: 1.5rem;
+}
+button:focus {
+    /*border-color: chartreuse;*/
+    border: 2px solid chartreuse;
+}
+.be-course li:first-child {
+    margin: 50px 30px; /*margin-top: 50px, margin-bottom: 50px, margin-left: 30px, margin-right:30px*/
+
+}
+.heading-table {
+    word-spacing: 10px
+}
+.small {
+    line-height: 2;
+    letter-spacing: 2px;
+    text-decoration: line-through;
+}
+
+#table-company th{
+     border: 1px solid crimson;
+}
+#table-company td{
+    border: 1px solid crimson;
+}
+#table-company {
+    border-collapse: collapse;
+    width:50%;
+}
+#table-company th, td {
+    text-align: left;
+    padding: 8px
+}
+#table-company tr:nth-child(even) {
+    background-color: aliceblue;
+}
+#table-company th {
+    background-color: coral;
+    color: white
+}

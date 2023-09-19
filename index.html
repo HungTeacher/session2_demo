@@ -5,97 +5,365 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module1</title>
+    <link href="./css/index.css" rel="stylesheet">
+    <!--<style>
+        h1 {
+            color: green;
+        }
+    </style>-->
 
 </head>
 <body>
+<div id="div1">
+    <!--Thẻ thuộc nhóm block-->
+    <h1 style="color: violet">Đây là thẻ heading 1</h1>
+    <ul class="link">
+        <li >Coffee</li>
+        <li>Tea</li>
+        <li>Coca cola</li>
+    </ul>
+    <div>
+        <a href="#">Thẻ inline anchor boc trong the div</a>
+    </div>
 
-<!--Thẻ thuộc nhóm block-->
-<h1>Đây là thẻ heading 1</h1>
-<ul>
-    <li>Link 01</li>
-    <li>Link 02</li>
-    <li>Link 03</li>
-</ul>
-<div>
-    <a href="#">Thẻ inline anchor boc trong the div</a>
-</div>
+    <div>Nội dung phụ</div>
 
-<div>Nội dung phụ</div>
+    <div>
+        <p>Tên công cty</p>
+    </div>
 
-<div>
-    <p>Tên công cty</p>
-</div>
+    <article class="google-heading" style="display: block">
+        <h1 style="text-align: center">Google chrome</h1>
+        <p>Google chrome is web browser developed by Google</p>
+    </article>
+    <aside>
+        <h4>This is aside part</h4>
+    </aside>
 
-<article>
-    <h2>Google chrome</h2>
-    <p>Google chrome is web browser developed by Google</p>
-</article>
-<aside>
-    <h4>This is aside part</h4>
-</aside>
+    <p class="small">Tốt nghiệp bằng ĐH chuyên ngành kinh tế, ngôn ngữ Nhật hoặc IT. <br/> Trường hợp không có bằng ĐH sẽ yêu cầu làm
+        trên
+        1 năm ở Rikkeisoft thì có thể chuyển công tác nội bộ.</p>
+    <p>Có chương trình training sau khi sang Nhật</p>
 
-<p>Tốt nghiệp bằng ĐH chuyên ngành kinh tế, ngôn ngữ Nhật hoặc IT. <br/> Trường hợp không có bằng ĐH sẽ yêu cầu làm trên
-    1 năm ở Rikkeisoft thì có thể chuyển công tác nội bộ.</p>
-<p>Có chương trình training sau khi sang Nhật</p>
+    <ol class="course">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <ol type="a">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
 
-<ol>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JS</li>
-</ol>
-<ol type="a">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JS</li>
-</ol>
+    <ul class="be-course">
+        <li>Nodejs</li>
+        <li>Express</li>
+        <li>NestJs</li>
+    </ul>
+    <ul type="square">
+        <li>Nodejs</li>
+        <li>Express</li>
+        <li>NestJs</li>
+    </ul>
 
-<ul>
-    <li>Nodejs</li>
-    <li>Express</li>
-    <li>NestJs</li>
-</ul>
-<ul type="square">
-    <li>Nodejs</li>
-    <li>Express</li>
-    <li>NestJs</li>
-</ul>
+    <dl>
+        <dt>Trái cây:</dt>
+        <dd>Giúp bỏ sung vitamin cho cơ thể</dd>
 
-<dl>
-    <dt>Trái cây:</dt>
-    <dd>Giúp bỏ sung vitamin cho cơ thể</dd>
+        <dt>Nước:</dt>
+        <dd>Rất cần thiết cho cơ thể</dd>
+    </dl>
 
-    <dt>Nước:</dt>
-    <dd>Rất cần thiết cho cơ thể</dd>
-</dl>
-
-<section id="layout">
-    <header>
-        This is HomePage
-        <nav>
-            <ul>
-                <li><a href="#">Trang chủ</a></li>
-                <li><a href="#">Giới thiệu</a></li>
-                <li><a href="#">Sản phẩm</a></li>
-                <li><a href="#">Liên Hệ</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="pagebody">
-        This is Content
+    <section id="layout">
+        <header>
+            This is HomePage
+            <nav>
+                <ul>
+                    <li><a href="#" ><p>Trang chủ</p></a></li>
+                    <li><a href="#" target="_blank">Giới thiệu</a></li>
+                    <li><a href="#" target="">Sản phẩm</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="pagebody">
+            This is Content
+        </section>
+        <footer>This is footer</footer>
     </section>
-    <footer>This is footer</footer>
-</section>
-<figure>
-    <p>
-        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a3b4325c-934c-4ab4-af1b-57b07936337f/jordan-max-aura-5-shoes-ZBZ4Pz.png"
-             alt="nike" width="150" height="150"/></p>
-    <figcaption>Jordan Max Aura 5</figcaption>
-</figure>
-<!-- Thẻ  thuộc nhóm inline-->
-<a href="https://rikkei.vn/">Rikkei Academy</a>
-<span>Thẻ span</span>
-<em>Thẻ em</em>
-<strong>Thẻ strong</strong>
+    <figure>
+        <p>
+            <img src=".."
+                 alt="nike" width="150" height="150"/></p>
+        <figcaption>Jordan Max Aura 5</figcaption>
+    </figure>
+    <!-- Thẻ  thuộc nhóm inline-->
+    <a href="https://rikkei.vn/">Rikkei Academy</a>
+    <p>An image as a link: <a href="https://rikkei.vn/">
+        <img src="https://rikkei.vn/common/images/rikkei_logo.png" class="img-logo-desk"></a></p>
+    <span>Thẻ span</span>
+    <em>Thẻ em</em>
+    <strong>Thẻ strong</strong>
+    <br/>
+    <b>This is b tag</b><i>this is i tag</i>
+    <p>This is p <sup>tag2</sup><sub>tag</sub></p>
+    <p>Downloading:
+        <progress max="100" value="50"></progress>
+    </p>
+    <!--<video controls width="1280" height="720">
+        <source src="https://www.youtube.com/watch?v=xIR779iAjvg"/>
+    </video>-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/z7cUGcVsAJw?si=bT-H80oCavCNS6Hw"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    <h3>
+        Entity Special Keywords: <span>&lt;</span><span>&gt;</span><span>&amp;</span><span>&cent;</span>
+        <span>&yen;</span>
+        <span>&copy;</span>
+    </h3>
+    <video width="640" height="360" poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+           controls>
+        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4"
+                size="576">
+        <source src="video.webm" type="video/webm">
+    </video>
+    <svg width="400" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+              style="fill:red;stroke:black;stroke-width:5;opacity:0.5"/>
+    </svg>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+                 style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"/>
+    </svg>
+    <svg height="130" width="500">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+            </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)"/>
+        <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <hr/>
 
+    <h2 class="heading-table">Session 2- Table</h2>
+    <div class="container">
+        <table id="table-company" style="width:100%">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>RA</td>
+                <td>172 Le Trung Nghia</td>
+                <td>HCM</td>
+            </tr>
+            <tr>
+                <td>Rikkeisoft</td>
+                <td>42 tu cuong</td>
+                <td>HN</td>
+            </tr>
+        </table>
+        <br/>
+
+        <h3>Table with colspan</h3>
+
+        <table style="width:100%">
+            <tr>
+                <th>Tháng</th>
+                <th>Doanh Thu</th>
+            </tr>
+            <tr>
+                <td>Một</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Hai</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tổng: $180</td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <h3>Table with rowspan</h3>
+        <table style="width:100%">
+            <tr>
+                <th>Quý</th>
+                <th>Tháng</th>
+                <th>Doanh Thu</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Một</td>
+                <td>Một</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Hai</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Ba</td>
+                <td>$80</td>
+            </tr>
+        </table>
+        <br/>
+
+        <h3>Table bai tap</h3>
+        <table style="width:100%">
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Mark</th>
+
+            </tr>
+            <tr>
+                <td rowspan="2">Hillary</td>
+                <td>Advanced Web</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Operating System</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Larry</td>
+                <td>Advanced Web</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Operating system</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">Total average: 72.5</td>
+            </tr>
+        </table>
+
+        <br/>
+        <h3>Table with Header, Body, Footer</h3>
+        <table style="width:100%">
+            <caption>This is sales table</caption>
+            <thead>
+            <tr>
+                <th colspan="2">October</th>
+                <th colspan="2">November</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Sales</td>
+                <td>Profit</td>
+                <td>Sales</td>
+                <td>Profit</td>
+            </tr>
+            <tr>
+                <td>$200,000</td>
+                <td>$50,000</td>
+                <td>$300,000</td>
+                <td>$70,000</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th colspan="4">November was more productive</th>
+            </tr>
+            </tfoot>
+        </table>
+
+        <br/>
+        <h3>Table with scope</h3>
+        <table style="width:100%">
+            <tr>
+                <th></th>
+                <th scope="col">Semester</th>
+                <th scope="col">Grade</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jan - April</td>
+                <td>Credit</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>May - August</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>September - December</td>
+                <td>Distinction</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr/>
+    <h2>Form Login</h2>
+    <form acion="" method="post">
+        <label>First name: </label>
+        <input type="text" name="firstname" id="firstName"/> <br/>
+        <label>Last name: </label>
+        <input type="text" name="lastname"/><br/>
+        <label>Password</label>
+        <input type="password" name="password"/><br/>
+        <label>Phone number: </label>
+        <input type="tel" name="phonenumber"/> <br/>
+        <label>Giới tính: </label><br/>
+        <input type="radio" name="gender" value="male"/>
+        <label>Male</label><br/>
+        <input type="radio" name="gender" value="female" checked/>
+        <label>Female</label><br/>
+        <input type="radio" name="gender" value="other"/>
+        <label>Other</label><br/>
+        <label>Bạn đã có tài khoản chưa? </label> <br/>
+
+        <input type="checkbox" name="register" value="yes"/>
+        <label>Registered</label>
+        <input type="checkbox" name="register1" value="no"/>
+        <label>Not yet</label><br/>
+        <label>Your birthday: </label>
+        <input type="date"/><br/>
+        <label>Search: </label>
+        <input type="search" placeholder="Search your name"/> <br/>
+        <label>Email: </label>
+        <input type="email"/><br/>
+        <label>Please choose courses to register: </label>
+        <select>
+            <option value="html">HTML</option>
+            <option value="js">JS</option>
+            <option value="reat">React</option>
+        </select> <br/>
+        <label>Note: </label>
+        <textarea rows="4" cols="10">
+            The wind wailed outside. I heard thunder in the air. I
+woke Mike and I told him I felt scared. But we both did. So much unknown. We laid there
+holding each other till we fell asleep…
+        </textarea><br/>
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="Reset"/>
+        <input type="button" name="click" value="Click me!" onclick="alert('Hello World!')"/>
+        <!--        <button>Login</button>-->
+    </form>
+    <form method="get" action="https://www.google.com/search?">
+        <input type="text" name="q"/>
+        <button id="btn">Search</button>
+    </form>
+</div>
+
+<script>
+    document.getElementById("btn").addEventListener("click",
+        function (event) {
+            event.preventDefault()
+        }
+    )
+</script>
 </body>
 </html>
